@@ -117,7 +117,7 @@ f(x,y) =
 (2.625 - x + xy^3)^2
 $$
 
-关于 $x$ 的偏导数
+关关于 $x$ 的偏导数
 
 $$
 \frac{\partial f}{\partial x}
@@ -191,6 +191,7 @@ def beale_gradient(x, y):
 ### SGDM的数学描述
 
 从数学角度来看，在动量随机梯度下降法 (SGDM) 的每次迭代中，参数更新速度的计算方法是将先前速度的一部分 $\gamma$ 加到当前梯度乘以学习率上：
+
 $$
 v_{t+1} = \gamma v_t - \eta \nabla f(\theta_t)
 $$

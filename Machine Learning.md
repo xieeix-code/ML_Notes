@@ -690,7 +690,7 @@ $$\eta_t = \frac{\eta}{\sqrt{v_t} + \epsilon}$$
 
 正如我们目前看到的其他优化器一样，动量项 $m_t$ 通过结合过去的梯度信息，帮助 AdaMax 逃离局部极小值。
 
-![](./机器学习.assets/Adamax.png)
+![](assets/Machine%20Learning/Adamax.png)
 
 ### 基于 Python 实现 Adamax
 

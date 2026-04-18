@@ -860,11 +860,13 @@ $$
 ### 数学公式
 
 AdamW 优化器可以从数学上表示如下：
+
 $$
 m_t = \beta_1 m_{t-1} + (1 - \beta_1)\nabla f(\theta_t) \\[4pt]
 v_t = \beta_2 v_{t-1} + (1 - \beta_2)(\nabla f(\theta_t))^2 \\[4pt]
 \theta_{t+1} = \theta_t - \eta \frac{m_t}{\sqrt{v_t} + \epsilon}
 $$
+
 **其中：**
 
 - $\beta_1$ 和 $\beta_2$ 分别是控制一阶矩和二阶矩指数衰减率的超参数。

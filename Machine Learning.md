@@ -72,16 +72,16 @@
 
 本文将介绍以下几种优化器：
 
-| Name     | Description（中文）         | TensorFlow Function          | PyTorch Function     |
-| -------- | --------------------------- | ---------------------------- | -------------------- |
+| Name     | Description（中文）       | TensorFlow Function          | PyTorch Function     |
+| -------- | --------------------- | ---------------------------- | -------------------- |
 | SGD      | 随机梯度下降                | tf.keras.optimizers.SGD      | torch.optim.SGD      |
-| Momentum | 带动量的随机梯度下降        | tf.keras.optimizers.SGD      | torch.optim.SGD      |
-| Nesterov | Nesterov 加速梯度法         | tf.keras.optimizers.SGD      | torch.optim.SGD      |
+| Momentum | 带动量的随机梯度下降            | tf.keras.optimizers.SGD      | torch.optim.SGD      |
+| Nesterov | Nesterov 加速梯度法        | tf.keras.optimizers.SGD      | torch.optim.SGD      |
 | Adam     | 自适应矩估计                | tf.keras.optimizers.Adam     | torch.optim.Adam     |
-| RMSprop  | 均方根传播算法              | tf.keras.optimizers.RMSprop  | torch.optim.RMSprop  |
-| Adagrad  | 自适应梯度算法              | tf.keras.optimizers.Adagrad  | torch.optim.Adagrad  |
-| Adadelta | 自适应 Delta 学习率方法     | tf.keras.optimizers.Adadelta | torch.optim.Adadelta |
-| Adamax   | 基于无穷范数的 Adam         | tf.keras.optimizers.Adamax   | torch.optim.Adamax   |
+| RMSprop  | 均方根传播算法               | tf.keras.optimizers.RMSprop  | torch.optim.RMSprop  |
+| Adagrad  | 自适应梯度算法               | tf.keras.optimizers.Adagrad  | torch.optim.Adagrad  |
+| Adadelta | 自适应 Delta 学习率方法       | tf.keras.optimizers.Adadelta | torch.optim.Adadelta |
+| Adamax   | 基于无穷范数的 Adam          | tf.keras.optimizers.Adamax   | torch.optim.Adamax   |
 | Nadam    | Adam 与 Nesterov 动量的结合 | tf.keras.optimizers.Nadam    | torch.optim.Nadam    |
 | AdamW    | 带权重衰减的 Adam           | tf.keras.optimizers.AdamW    | torch.optim.AdamW    |
 

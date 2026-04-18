@@ -315,7 +315,7 @@ $$
 >
 > 这里的 $m$ 是一个与 $\theta$ 维度相同的向量。这意味着它会对 $\theta$ 中的每一个参数进行**逐维度（Per-parameter）**的缩放。例如，在处理 Beale 函数 $f(x, y)$ 时，$\theta$ 和 $m$ 都是二维向量 ($m \in \mathbb{R}^2$)，分别对应 $x$ 和 $y$ 两个维度的更新步长。
 
-![](assets/Machine%20Learning/file-20260418100113802.png)
+![](assets/Machine%20Learning/SGS%20+%20Nesterov.png)
 
 ###  Nesterov 优化器与SGD相比的优势和劣势
 SGS + Nesterov

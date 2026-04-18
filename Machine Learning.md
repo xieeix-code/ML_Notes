@@ -616,7 +616,7 @@ E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma)g_t^2
 $$
 其中 $\gamma$ 是衰减率，通常设置为 0.9。
 
-![](./机器学习.assets/Adadelta.png)
+![](assets/Machine%20Learning/Adadelta.png)
 
 ### 基于 Python 实现 Adadelta
 
@@ -790,7 +790,7 @@ $$
 
 Nadam 优化器使用上述方程迭代更新模型参数，这些方程根据梯度的幅度和梯度的二阶矩自适应地调整步长。
 
-![](./机器学习.assets/Nadam.png)
+
 
 ### 基于 Python 实现 NAdam
 
@@ -869,7 +869,7 @@ $$
 
 AdamW 的更新规则涉及计算梯度的一阶矩（均值）和二阶矩（方差），随后使用这些矩来更新模型参数。
 
-![](./机器学习.assets/AdamW.png)
+![](assets/Machine%20Learning/AdamW.png)
 
 ### 基于 Python 实现 AdamW
 

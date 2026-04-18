@@ -201,7 +201,7 @@ $$
 - $\eta$ 是学习率（Learning rate）；
 - $\nabla f(\theta_t)$ 是在 $\theta_t$ 处的梯度。
 
-![](assets/Machine%20Learning/file-20260418100016004.png)
+![](assets/Machine%20Learning/SGD+momentum.png)
 
 ### SGDM与SGD相比的优势和劣势
 
@@ -315,10 +315,10 @@ $$
 >
 > 这里的 $m$ 是一个与 $\theta$ 维度相同的向量。这意味着它会对 $\theta$ 中的每一个参数进行**逐维度（Per-parameter）**的缩放。例如，在处理 Beale 函数 $f(x, y)$ 时，$\theta$ 和 $m$ 都是二维向量 ($m \in \mathbb{R}^2$)，分别对应 $x$ 和 $y$ 两个维度的更新步长。
 
-![](./机器学习.assets/SGS + Nesterov.png)
+![](assets/Machine%20Learning/file-20260418100113802.png)
 
 ###  Nesterov 优化器与SGD相比的优势和劣势
-
+SGS + Nesterov
 与随机梯度下降法 (SGD) 相比，Nesterov 优化器具有以下几个优点：
 
 * 收敛速度：Nesterov 优化器的收敛速度比 SGD 快，尤其对于非凸优化问题。

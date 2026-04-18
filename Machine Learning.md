@@ -123,8 +123,7 @@ $$
 关于 $x$ 的偏导数：
 
 $$
-\frac{\partial f}{\partial x}
-=
+\frac{\partial f}{\partial x}=
 2(1.5 - x + xy)(-1 + y)
 +
 2(2.25 - x + xy^2)(-1 + y^2)
@@ -136,8 +135,7 @@ $$
 关于 $y$ 的偏导数：
 
 $$
-\frac{\partial f}{\partial y}
-=
+\frac{\partial f}{\partial y}=
 2(1.5 - x + xy)x
 +
 2(2.25 - x + xy^2)(2xy)

@@ -201,7 +201,7 @@ $$
 - $\eta$ 是学习率（Learning rate）；
 - $\nabla f(\theta_t)$ 是在 $\theta_t$ 处的梯度。
 
-![SGD+momentum](./机器学习.assets/SGD+momentum.png)
+![](assets/Machine%20Learning/file-20260418100016004.png)
 
 ### SGDM与SGD相比的优势和劣势
 

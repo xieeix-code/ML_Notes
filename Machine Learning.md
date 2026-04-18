@@ -289,7 +289,7 @@ $$
 
 **1. 核心更新方程**
 
-NAG 的参数更新可以表示为：$\theta_{k+1} = y_k - \eta \nabla f(y_k)$
+NAG 的参数更新可以表示为$\theta_{k+1} = y_k - \eta \nabla f(y_k)$
 
 其中：
 

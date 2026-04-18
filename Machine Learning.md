@@ -136,10 +136,8 @@ $$
 
 $$
 \frac{\partial f}{\partial y}=
-2(1.5 - x + xy)x
-+
-2(2.25 - x + xy^2)(2xy)
-+
+2(1.5 - x + xy)x+
+2(2.25 - x + xy^2)(2xy)+
 2(2.625 - x + xy^3)(3xy^2)
 $$
 
@@ -173,7 +171,7 @@ def beale_gradient(x, y):
 
 
 
-# SGD with Momentum
+# SGD with Momentum 
 
 当 SGD 算法在峡谷中导航时会遇到挑战，峡谷是地形向某一方向倾斜角度远大于其他方向的区域，通常出现在局部最优解附近。在这样的地形中，SGD 算法往往会在峡谷的陡坡上振荡，缓慢地沿着谷底向局部最优解推进。
 

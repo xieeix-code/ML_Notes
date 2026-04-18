@@ -420,7 +420,7 @@ where：
 
 - $\epsilon$ 是一个为数值稳定性而添加的小值。
 
-![](./机器学习.assets/Adam.png)
+![](assets/Machine%20Learning/Adam.png)
 
 ### 基于 Python 实现 Adam
 

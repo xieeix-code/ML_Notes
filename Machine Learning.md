@@ -421,11 +421,11 @@ Adam 的更新规则结合了上述校正后的估计值。为了保证数值稳
 Adam 的数学表达式可以写成如下形式：
 
 $$
-\begin{aligned}
-m_t &= \beta_1 m_{t-1} + (1 - \beta_1) \nabla f(\theta_t) \\[4pt]
-v_t &= \beta_2 v_{t-1} + (1 - \beta_2) (\nabla f(\theta_t))^2\\[4pt]
+\begin{split}
+m_t &= \beta_1 m_{t-1} + (1 - \beta_1) \nabla f(\theta_t) \\
+v_t &= \beta_2 v_{t-1} + (1 - \beta_2) (\nabla f(\theta_t))^2\\
 \theta_t &= \theta_{t-1} - \eta \frac{m_t}{\sqrt{v_t} + \epsilon}
-\end{aligned}
+\end{split}
 $$
 
 where：

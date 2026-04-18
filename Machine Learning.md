@@ -119,6 +119,7 @@ $$f(x,y) =
 
 
 关于 $x$ 的偏导数：
+
 $$\frac{\partial f}{\partial x}
 =
 2(1.5 - x + xy)(-1 + y)
@@ -128,14 +129,17 @@ $$\frac{\partial f}{\partial x}
 2(2.625 - x + xy^3)(-1 + y^3)$$
 
 
-关于 $y$ 的偏导数：$$
+关于 $y$ 的偏导数：
+
+$$
 \frac{\partial f}{\partial y}
 =
 2(1.5 - x + xy)x
 +
 2(2.25 - x + xy^2)(2xy)
 +
-2(2.625 - x + xy^3)(3xy^2)$$
+2(2.625 - x + xy^3)(3xy^2)
+$$
 
 梯度向量 $\nabla f$ 定义为：
 

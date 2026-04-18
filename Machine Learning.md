@@ -95,7 +95,7 @@ $$
 parameters_{t+1} = parameters_t - \eta \cdot gradient_t
 $$
 
-其中：
+其中： 
 
 - $gradient_t = \nabla f(parameters_t)$ 表示第 $t$ 次迭代计算得到的梯度  
 - $f$ 表示目标函数（objective function）  

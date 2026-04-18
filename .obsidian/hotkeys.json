@@ -16,5 +16,14 @@
       ],
       "key": "/"
     }
+  ],
+  "obsidian-style-settings:show-style-settings-leaf": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }
